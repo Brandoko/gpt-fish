@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "gpt-fish"
+version = "0.1.0"
+description = ""
+authors = ["Brandon"]
+readme = "README.md"
+packages = [{include = "gpt_fish"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+openai = "^0.27.8"
+python-dotenv = "^1.0.0"
+langchain = "^0.0.215"
+google-search-results = "^2.4.2"
+google-api-python-client = "^2.90.0"
+google-auth-oauthlib = "^1.0.0"
+google-auth-httplib2 = "^0.1.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
